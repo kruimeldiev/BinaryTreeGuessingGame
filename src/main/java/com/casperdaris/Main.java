@@ -6,6 +6,8 @@ public class Main {
 
         BTController controller = new BTController();
 
-        controller.spelSpelen(controller.boomMaken());
+        while (controller.spelen) {
+            controller.spelSpelen(controller.beginBoomMaken());
+        }
     }
 }
