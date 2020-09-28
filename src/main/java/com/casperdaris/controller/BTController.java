@@ -1,4 +1,7 @@
-package com.casperdaris;
+package com.casperdaris.controller;
+
+import com.casperdaris.model.BinaryTree;
+import com.casperdaris.model.Node;
 
 import java.util.Scanner;
 

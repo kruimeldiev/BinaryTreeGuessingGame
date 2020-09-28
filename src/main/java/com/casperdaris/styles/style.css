@@ -1,0 +1,26 @@
+.top {
+    -fx-background-color: #01183c;
+    -fx-padding: 20;
+}
+
+.root {
+    -fx-background-color: #cdd3e0;
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-start-margin: 10;
+    -fx-end-margin: 20;
+}
+
+.vraagText {
+    -fx-font-size: 24;
+    -fx-fill: #333333;
+}
+
+.titleText {
+    -fx-font-size: 18;
+    -fx-fill: #c2c2c2;
+}
+
+.labelText {
+    -fx-fill: #c2c2c2;
+}

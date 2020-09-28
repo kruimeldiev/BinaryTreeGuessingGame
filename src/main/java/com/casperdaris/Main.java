@@ -1,18 +1,19 @@
 package com.casperdaris;
 
+import com.casperdaris.controller.BTController;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+
+import java.nio.file.Paths;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage stage) {
-
-        GridPane root = new GridPane();
-        Scene scene = new Scene(root);
-        new GUI(root);
+        Scene scene = new Scene(GUI.CreateGUI());
+        String styleURI = Paths.get("/Users/casper/Desktop/BinaryTreeGuessingGame/src/main/java/com/casperdaris/styles/style.css").toUri().toString();
+        scene.getStylesheets().add(styleURI);
         stage.setScene(scene);
         stage.show();
     }

@@ -1,4 +1,4 @@
-package com.casperdaris;
+package com.casperdaris.model;
 
 public class Node {
 
