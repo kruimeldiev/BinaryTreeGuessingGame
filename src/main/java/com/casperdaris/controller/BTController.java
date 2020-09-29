@@ -1,5 +1,7 @@
 package com.casperdaris.controller;
 
+// Deze controller wordt gebruikt om het spel OFFLINE te spelen, dus zonder gebbruik te maken van de database
+
 import com.casperdaris.model.BinaryTree;
 import com.casperdaris.model.Node;
 
